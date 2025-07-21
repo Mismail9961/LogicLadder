@@ -1,44 +1,44 @@
-# #Defining Functions
-# def greet():
-#     print("Hello!")
+#Defining Functions
+def greet():
+    print("Hello!")
 
-# #Parameters and Arguments
-# def greet(name):
-#     print(f"Hello, {name}!")
-# greet("Ismail")
+#Parameters and Arguments
+def greet(name):
+    print(f"Hello, {name}!")
+greet("Ismail")
 
-# #Return Values
-# def add(a, b):
-#     return a + b
-# result = add(3, 5)
-# print(result)  # 8
+#Return Values
+def add(a, b):
+    return a + b
+result = add(3, 5)
+print(result)  # 8
 
-# #Scope (Local vs Global)
-# x = 10  # global
+#Scope (Local vs Global)
+x = 10  # global
 
-# def show():
-#     x = 5  # local
-#     print("Inside:", x)
+def show():
+    x = 5  # local
+    print("Inside:", x)
 
-# show()
-# print("Outside:", x)
+show()
+print("Outside:", x)
 
-# #Practice Problem:
-# #P1
-# def is_palindrome(text):
-#     return text == text[::-1]
+#Practice Problem:
+#P1
+def is_palindrome(text):
+    return text == text[::-1]
 
-# print(is_palindrome("madam"))  # True
-# print(is_palindrome("hello"))  # False
+print(is_palindrome("madam"))  # True
+print(is_palindrome("hello"))  # False
 
-# #P2
-# def fibonacci(n):
-#     sequence = [0, 1]
-#     for i in range(2, n):
-#         sequence.append(sequence[-1] + sequence[-2])
-#     return sequence[:n]
+#P2
+def fibonacci(n):
+    sequence = [0, 1]
+    for i in range(2, n):
+        sequence.append(sequence[-1] + sequence[-2])
+    return sequence[:n]
 
-# print(fibonacci(10))
+print(fibonacci(10))
 
 def lenght_converter():
     print("Conver Lenght : ")
